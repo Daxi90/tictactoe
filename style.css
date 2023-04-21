@@ -11,9 +11,14 @@ tr {
 }
 
 td {
+  position: relative;
   width: 130px;
   height: 133px;
   border: 5px solid black;
+}
+
+td:hover{
+  background-color: azure;
 }
 
 tr:first-child td {
@@ -30,4 +35,19 @@ tr:last-child td {
 
 tr td:last-child {
   border-right: 0;
+}
+
+
+.shape{
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  top:28px;
+  bottom:0;
+  right:0;
+  left: 28px;
+}
+
+.d-none{
+  display: none;
 }
